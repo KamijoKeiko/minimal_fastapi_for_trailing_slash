@@ -7,9 +7,9 @@ redirect_slashes=Falseオプションが機能するかどうかを確認する�
 - uvicorn 0.24.0.post1
 
 # インストール
-- git clone https://github.com/KamijoKeiko/minimal_fastapi_for_trailing_slash.git
-- cd minimumFastApiProject
-- pip install fastapi==0.104.1 uvicorn
+- `git clone https://github.com/KamijoKeiko/minimal_fastapi_for_trailing_slash.git`
+- `cd minimumFastApiProject`
+- `pip install fastapi==0.104.1 uvicorn`
 
 # 起動
 `uvicorn main:app --host 127.0.0.1 --port 7000`
